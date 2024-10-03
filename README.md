@@ -7,3 +7,8 @@ cmd used: mv top5-highest-temperatures.csv analyzed/
 cmd used: rm -r test-1
 4.Hannah extracted top-5 lowest temperature from data directory to analysed directory
 cmd used: sort -t, -k3 satelite_temperature_data.csv| head -n 5 > ../analysed/top-5-lowest-temperature
+5.Benigne: Renamed files in analyzed to [top-5-] format
+cmd used: mv top5-lowest-temperatures.csv top-5-lowest-temperatures.csv
+6.Benigne: Extracted top 5 highest temperature from Data directory to analyzed directory
+cmd used: sort -t, -k -r -n satelite_temperature_data.csv | head -n5 > ../analysed/top-5-lowest-temperature
+7.
